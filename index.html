@@ -17,7 +17,6 @@
             
             <nav class="main-nav">
                 <ul>
-                    <!-- La clase .active indica la página actual -->
                     <li><a href="index.html" class="active">Inicio</a></li>
                     <li><a href="nosotros.html">Nosotros</a></li>
                     <li><a href="servicios.html">Servicios</a></li>
@@ -29,23 +28,24 @@
     </header>
 
     <main>
-        <section class="slider-wrapper" id="inicio">
-            <input type="radio" name="slider-nav" id="radio1" checked><input type="radio" name="slider-nav" id="radio2"><input type="radio" name="slider-nav" id="radio3">
-            <div class="slider-track">
-                <div class="slide"><img src="img/machupichu.jpg" alt="Vista panorámica de Machu Picchu al amanecer"><div class="slide-content"><h1>Descubre la Magia de Perú</h1><p>Tu aventura soñada comienza aquí.</p></div></div>
-                <div class="slide"><img src="img/camino.jpg" alt="Camnino del inca en los andes"><div class="slide-content"><h1>Caminos del Inca</h1><p>Una ruta legendaria hacia la ciudadela sagrada.</p></div></div>
-                <div class="slide"><img src="img/ceviche.jpg" alt="Plato de ceviche fresco peruano"><div class="slide-content"><h1>Sabores de la Costa</h1><p>Explora la gastronomía de Lima y sus alrededores.</p></div></div>
+        <!-- SECCIÓN DE HÉROE ESTÁTICA (REEMPLAZA AL SLIDER) -->
+        <section class="hero-section" id="inicio">
+            <img src="img/machupichu.jpg" alt="Vista panorámica de Machu Picchu al amanecer" class="hero-background">
+            <div class="hero-content">
+                <h1>Descubre la Magia de Perú</h1>
+                <p>Tu aventura soñada comienza aquí.</p>
             </div>
-            <div class="slider-nav-arrows"><label for="radio2" class="arrow arrow-next next-for-1">></label><label for="radio1" class="arrow arrow-prev prev-for-2"><</label><label for="radio3" class="arrow arrow-next next-for-2">></label><label for="radio2" class="arrow arrow-prev prev-for-3"><</label></div>
         </section>
         
         <section class="section-info" id="nosotros-intro">
-            <div class="container info-grid">
-                <div class="info-image"><img src="img/llamas.jpg" alt="Llamas en los Andes"></div>
-                <div class="info-text">
-                    <h2>Vive una Experiencia Inolvidable</h2>
-                    <p>En ViajesAlanya, nos dedicamos a crear viajes que conectan con la esencia de nuestra tierra. Desde la majestuosidad de Machu Picchu hasta la misteriosa Amazonía, te llevamos a conocer los tesoros de Perú de una manera auténtica y segura.</p>
-                    <a href="nosotros.html" class="btn">Conócenos más</a>
+            <div class="container">
+                <div class="info-grid">
+                    <div class="info-image"><img src="img/llamas.jpg" alt="Llamas en los Andes"></div>
+                    <div class="info-text">
+                        <h2>Vive una Experiencia Inolvidable</h2>
+                        <p>En ViajesAlanya, nos dedicamos a crear viajes que conectan con la esencia de nuestra tierra. Desde la majestuosidad de Machu Picchu hasta la misteriosa Amazonía, te llevamos a conocer los tesoros de Perú de una manera auténtica y segura.</p>
+                        <a href="nosotros.html" class="btn">Conócenos más</a>
+                    </div>
                 </div>
             </div>
         </section>
